@@ -19,6 +19,7 @@ private:
 	friend istream& operator >> (istream& os, LongA &other);
 	friend ostream& operator<< (ostream& os, const LongA &other);
 public:
+
 	LongA();
 	const LongA product_Tooma_Cook(LongA other) const;
 	const LongA product_Schonhage(LongA other) const;
